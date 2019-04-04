@@ -13,6 +13,7 @@ public class HelloController {
 
 	@RequestMapping("/hello")
 	private String hello() {
+		System.out.println("test git");
 		return "hi,Stpring boot!";
 
 	}
